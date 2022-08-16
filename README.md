@@ -1,9 +1,18 @@
+---
+title: Api Gateway Socket
+description: Just show a simple setup with api gateway socket
+author: haimtran
+publishedDate: 08/14/2022
+date: 2022-08-14
+---
+
 ## Introduction
 
+Setup and go through basic concepts of apigw socket
+
 - Routes: $connect, $disconnect, $default, $sendMessage
-- Role for apigw to invoke these lambda
-- Role for lambda sendMesssage to send back messages to clients
-- SendMessage lambda need the endpointUrl to ssend messages back to clients
+- Role for apigw, and role for lambda
+- SendMessage lambda get the endpointUrl and send messages back to clients
 - Manage connectionId by a table
 
 ## Api Socket
