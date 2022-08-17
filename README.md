@@ -199,4 +199,10 @@ new CfnOutput(this, "endpointUrl", {
 
 ## Test
 
+message format sent from client
+
+```json
+{ "action": "sendmessage", "message": "hello hai tran" }
+```
+
 Just using online testing tool [here](https://www.piesocket.com/)
