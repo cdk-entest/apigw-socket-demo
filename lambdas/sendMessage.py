@@ -31,9 +31,9 @@ def handler(event, context):
         print(connectionIds)
     except:
         pass
-    # broadcast message to all ids
+    # broadcast message to all ids - echo event
     for id in connectionIds:
-        response_message = "response message from lambda..."
+        response_message = f"lambda response: {event}"
         client.post_to_connection(
             Data=json.dumps(response_message), ConnectionId=id
         )
