@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.send-message-button {
+  background-color:cornflowerblue;
+  min-width: 150px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.send-message-button:hover {
+  background-color: green
+}
+
+.input-message {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  border-style: hidden;
+  padding: 0px;
+}
+
+.input-message:focus {
+  outline: none;
+}
+
+.send-message-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border:blueviolet;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style:outset;
+  height: 50px;
+  padding: 5px;
+}
+
+
+.chat-box {
+  background: lightgray;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  overflow-y: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.socket-state {
+  background-color: lightgray;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  max-width: 200px;
+}
