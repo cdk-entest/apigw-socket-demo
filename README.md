@@ -14,6 +14,7 @@ Setup and go through basic concepts of apigw socket
 - Role for apigw, and role for lambda
 - SendMessage lambda get the endpointUrl and send messages back to clients
 - Manage connectionId by a table
+- ApiGw lambda integration [invoke uri](https://docs.aws.amazon.com/lambda/latest/dg/API_Invoke.html)
 
 ## Api Socket
 
@@ -206,10 +207,6 @@ message format sent from client
 { "action": "sendmessage", "message": "hello hai tran" }
 ```
 
-Option 2. Build a react app 
+Option 2. Build a react app
 
 ![Screen Shot 2022-08-17 at 15 26 08](https://user-images.githubusercontent.com/20411077/185071824-7f99e582-479c-493e-983e-959aab68dcd2.png)
-
-
-
-
