@@ -199,10 +199,17 @@ new CfnOutput(this, "endpointUrl", {
 
 ## Test
 
+Option 1. Just using online testing tool [here](https://www.piesocket.com/)
 message format sent from client
 
 ```json
 { "action": "sendmessage", "message": "hello hai tran" }
 ```
 
-Just using online testing tool [here](https://www.piesocket.com/)
+Option 2. Build a react app 
+
+![Screen Shot 2022-08-17 at 15 26 08](https://user-images.githubusercontent.com/20411077/185071824-7f99e582-479c-493e-983e-959aab68dcd2.png)
+
+
+
+
