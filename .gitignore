@@ -6,6 +6,7 @@ package-lock.json
 jest.config.js
 .npmignore
 **/__pycache__
+.vscode
 
 # CDK asset staging directory
 .cdk.staging
